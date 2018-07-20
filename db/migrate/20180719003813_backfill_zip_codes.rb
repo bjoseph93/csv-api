@@ -1,5 +1,7 @@
 class BackfillZipCodes < ActiveRecord::Migration[5.2]
-  def up
-  	BackfillZipCodes.execute
-  end
+	require 'backfill_zip_codes'
+
+	def up
+		BackfillZipCodes.execute
+	end
 end
