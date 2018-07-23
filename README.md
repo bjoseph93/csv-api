@@ -46,7 +46,8 @@ The response will contain a list of zip entries in JSON format. These are contai
 Request:
 https://ben-joseph-peerstreet-api.herokuapp.com/zip_codes?zip=48415
 Response:
-```json
+
+```
 {
     "zip_entries": [
         {
