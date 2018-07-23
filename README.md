@@ -19,7 +19,7 @@ The response will contain a list of zip entries in JSON format. These are contai
     <tr>
 		<td>zip</td>
 		<td>integer</td>
-        <td>The zip provided in the request</td>
+        <td>The zip provided in the request.</td>
 	</tr>
     <tr>
 		<td>cbsa</td>
@@ -34,12 +34,12 @@ The response will contain a list of zip entries in JSON format. These are contai
     <tr>
 		<td>population_2015</td>
 		<td>integer</td>
-        <td>MSA population in 2015</td>
+        <td>MSA population in 2015.</td>
 	</tr>
     <tr>
 		<td>population_2014</td>
 		<td>integer</td>
-        <td>MSA population in 2014</td>
+        <td>MSA population in 2014.</td>
 	</tr>
 </table>
 <h2> Sample Request and Response </h2>
