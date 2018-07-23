@@ -1,3 +1,5 @@
+<h1>CSV API</h1>
+This is a Ruby on Rails API that processes housing data from provided CSVs. Testing is done with RSpec.
 <h2>Endpoint</h2>
 GET https://ben-joseph-peerstreet-api.herokuapp.com/zip_codes
 
