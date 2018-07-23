@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2018_07_19_003813) do
   enable_extension "plpgsql"
 
   create_table "zip_codes", force: :cascade do |t|
-    t.integer "zip"
+    t.integer "zip", null: false
     t.integer "cbsa"
     t.text "msa"
     t.text "lsad"

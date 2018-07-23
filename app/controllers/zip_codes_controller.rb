@@ -2,12 +2,7 @@ class ZipCodesController < ApplicationController
 	before_action :ensure_zip
 
 	def zip_code
-
-		# @all_zip_codes = ZipCode.all_cached
-
 		@zip_codes = ZipCode.where(zip: zip_params)
-		# render json: "Need zip", status: :bad_request
-
 		render "../views/zip_codes.json.jbuilder"
 	end
 

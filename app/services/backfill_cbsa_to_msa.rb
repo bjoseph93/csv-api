@@ -31,5 +31,3 @@ class BackfillCbsaToMsa
 
 	attr_reader :csv_array
 end
-
-# [22420, "Flint, MI",	"Metropolitan Statistical Area", 425790, 425790, 425057,421784,	418110,	415695,	412934,	410849]

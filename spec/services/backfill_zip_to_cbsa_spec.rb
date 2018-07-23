@@ -2,7 +2,7 @@ require 'rails_helper'
 require 'backfill_zip_to_cbsa'
 
 RSpec.describe BackfillZipToCbsa do
-	it "populates databas from array of arrays" do
+	it "populates database from array of arrays" do
 		zip_array = [
 			[501, 35004],
 			[601, 10260]
