@@ -5,7 +5,7 @@ class BackfillZipCodes
 	CBSA_HEADER_ROWS = 4
 
 	def self.execute
-		BackfillZipToCbsa.execute(CsvParser.new(ZIP_TO_CBSA, ZIP_HEADER_ROWS).array)
-		BackfillCbsaToMsa.execute(CsvParser.new(CBSA_TO_MSA, CBSA_HEADER_ROWS).array)
+		ZipToCbsa::Backfill.execute(CsvParser.new(ZIP_TO_CBSA, ZIP_HEADER_ROWS).array)
+		CbsaToMsa::Backfill.execute(CsvParser.new(CBSA_TO_MSA, CBSA_HEADER_ROWS).array)
 	end
 end

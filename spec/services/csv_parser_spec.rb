@@ -1,5 +1,4 @@
 require 'rails_helper'
-# require 'csv_parser'
 
 RSpec.describe CsvParser do
 	it "removes the correct number of header rows" do
